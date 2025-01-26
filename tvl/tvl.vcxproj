@@ -137,7 +137,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="argparse\ArgParse.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="uploader\uploader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tvl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

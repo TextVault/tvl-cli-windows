@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
         if (isLoginMethod && !username.empty()) {
             // TODO: Login logic
             std::cout << "trying to login with username: '" << parser.Get("username") << "'" << "\n";
-        } else if (username.empty()) {
+        } else {
             std::cerr << "Failed to login, no username provided." << "\n";
             return EXIT_FAILURE;
         }
